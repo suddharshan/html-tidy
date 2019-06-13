@@ -1,5 +1,3 @@
-
-
 from tidylib import tidy_document
 document="wer.xhmtl"
 document, errors = tidy_document('''<p>f&otilde;o <img src="bar.jpg">''',
